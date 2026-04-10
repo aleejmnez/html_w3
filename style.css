@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecc4c3;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+a{
+    color: white;
+}
+
+.Home {
+    text-align: center;
+}
