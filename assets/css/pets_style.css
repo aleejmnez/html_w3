@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ecc4c3;
+    padding-left: 20px;
+    padding-right: 20px;
+
+} 
+
+header .header-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* CONTENEDOR */
+
+.pets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    gap: 40px; /* Espacio entre cada sección de mascota */
+    padding: 50px 20px; /* Espacio alrededor del contenedor */
+    background-color: #f7f4f3; /* Un fondo rosa claro para resaltar las mascotas */
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #cd93f4;
+    padding: 60px 20px; /* 60px arriba y abajo, 20px a los lados */
+}
+
+.card {
+    width: 300px;           /* Un ancho fijo para que todas sean iguales */
+    background-color: rgb(255, 255, 255); /* Esto hará que resalten sobre el fondo rosa */
+    border-radius: 20px;    /* Bordes redondeados */
+    overflow: hidden;       /* Para que la imagen no se salga de las esquinas redondeadas */
+    display: flex;
+    flex-direction: column; /* Alinea imagen, título y texto uno abajo del otro */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sombra suave para dar profundidad */
+}
+
+/* IMAGEN */
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h3 {
+    padding: 15px 15px 0 15px; /* Espacio alrededor del título */
+    text-align: center;
+    color: #333;
+}
+
+.card p {
+    padding: 10px 15px 20px 15px; /* Espacio alrededor del párrafo */
+    text-align: justify;  /* O center, como prefieras */
+    font-size: 14px;
+    line-height: 1.5;     /* Separa un poco las líneas de texto para que sea fácil de leer */
+}
