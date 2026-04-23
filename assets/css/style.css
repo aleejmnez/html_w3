@@ -49,5 +49,164 @@ header a {
 .about-me .about-me-text p {
   margin-bottom: 20px;
 }
+.about-me .about-me-text button {
+  padding: 10px 20px;
+  background-color: #e29578;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.about-me {
+  /* imagen */
+}
+.about-me .about-me-img {
+  width: 50%;
+}
+.about-me .about-me-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* sesion de projectos*/
+.projects {
+  text-align: center;
+  padding: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: #fcd5ce;
+  padding: 60px 20px;
+  /* 60px arriba y abajo 20px a los lados   */
+}
+.cards .card {
+  width: 300px;
+  background-color: white;
+  /* fondo de las cards */
+  border-radius: 20px;
+  /* bordes redondeados de cada cards */
+  overflow: hidden;
+  /* para que las imagen no se salga de las esquinas redondeadas*/
+  display: flex;
+  flex-direction: column;
+  /* alinea imagen, titulo y texto uno bajo el otro */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  /* sombra suave para dar profundida a cada cards*/
+}
+.cards .card img {
+  width: 100%;
+  border-radius: 15px;
+}
+.cards .card h3 {
+  padding: 15px 15px 0 15px;
+  /* Espacio alrededor del titulo*/
+  text-align: center;
+  color: #333;
+}
+.cards .card p {
+  padding: 10px 15px 20px 15px;
+  /* espacio alrededor del parrafo*/
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.5;
+  /* separa un poco las lineas de texto para que sea facil de leer*/
+}
+
+/* sesiom de contacto*/
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+  /* Fondo blanco para contrastar con el rosa de servicios */
+}
+.contact .h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #e29578;
+}
+.contact .contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* importante para que en movil se ponga uno debajo del otro*/
+  gap: 40px;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* centra todo el bloque en la pantalla*/
+}
+.contact .contact-map {
+  flex: 1;
+  /* Toma el 50% del espacio si hay espacio suficiente*/
+  min-width: 300px;
+}
+.contact .contact-map iframe {
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.contact .contact-info {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+  /* la info se lee mejor alineada en la izquierda*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+.contact .info-item h3 {
+  color: #e29578;
+  margin-bottom: 5px;
+}
+.contact .info-item p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #ecc4c3;
+  /* El color rosa que usaste en el header */
+  color: rgba(47, 37, 21, 0.9);
+  padding: 40px 20px;
+  text-align: center;
+}
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  /* Alinea los elementos uno debajo de otro */
+  align-items: center;
+  /* Los centra horizontalmente */
+  gap: 20px;
+  /* Espacio uniforme entre los bloques */
+}
+footer .footer-content p {
+  font-style: italic;
+  font-size: 1.1rem;
+  max-width: 500px;
+}
+footer .social-links {
+  display: flex;
+  gap: 15px;
+}
+footer .social-links a {
+  text-decoration: none;
+  color: #e29578;
+  font-weight: bold;
+  transition: 0.3s;
+}
+footer .social-links a:hover {
+  color: white;
+  /* Efecto interactivo al pasar el mouse */
+}
+footer .copyright {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  /* Una línea divisoria sutil */
+  padding-top: 20px;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
